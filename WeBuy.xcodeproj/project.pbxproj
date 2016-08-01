@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63F4592E1D4B579900A90A40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4592D1D4B579900A90A40 /* main.m */; };
+		63F459311D4B579A00A90A40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F459301D4B579A00A90A40 /* AppDelegate.m */; };
+		63F459341D4B579A00A90A40 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F459331D4B579A00A90A40 /* FirstViewController.m */; };
+		63F459371D4B579A00A90A40 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F459361D4B579A00A90A40 /* SecondViewController.m */; };
+		63F4593A1D4B579A00A90A40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F459381D4B579A00A90A40 /* Main.storyboard */; };
+		63F4593C1D4B579A00A90A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F4593B1D4B579A00A90A40 /* Assets.xcassets */; };
+		63F4593F1D4B579A00A90A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F4593D1D4B579A00A90A40 /* LaunchScreen.storyboard */; };
+		63F4594B1D4B70B200A90A40 /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4594A1D4B70B200A90A40 /* CYLTabBarControllerConfig.m */; };
+		63F4597B1D4EE9DB00A90A40 /* CYLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4596B1D4EE9DB00A90A40 /* CYLHomeViewController.m */; };
+		63F4597C1D4EE9DB00A90A40 /* CYLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4596E1D4EE9DB00A90A40 /* CYLMessageViewController.m */; };
+		63F4597D1D4EE9DB00A90A40 /* CYLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F459711D4EE9DB00A90A40 /* CYLMineViewController.m */; };
+		63F4597E1D4EE9DB00A90A40 /* CYLDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F459741D4EE9DB00A90A40 /* CYLDetailsViewController.m */; };
+		63F4597F1D4EE9DB00A90A40 /* CYLSameCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F459761D4EE9DB00A90A40 /* CYLSameCityViewController.m */; };
+		63F459801D4EE9DB00A90A40 /* CYLPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F459791D4EE9DB00A90A40 /* CYLPlusButtonSubclass.m */; };
+		63F459811D4EE9DC00A90A40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F4597A1D4EE9DB00A90A40 /* Images.xcassets */; };
+		9C23DB585D3DDB937548EE91 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC021320210F375F4B91149 /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DC021320210F375F4B91149 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F459291D4B579900A90A40 /* WeBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F4592D1D4B579900A90A40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63F4592F1D4B579A00A90A40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63F459301D4B579A00A90A40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63F459321D4B579A00A90A40 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		63F459331D4B579A00A90A40 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		63F459351D4B579A00A90A40 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		63F459361D4B579A00A90A40 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		63F459391D4B579A00A90A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63F4593B1D4B579A00A90A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63F4593E1D4B579A00A90A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63F459401D4B579A00A90A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F459491D4B70B200A90A40 /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
+		63F4594A1D4B70B200A90A40 /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
+		63F4596A1D4EE9DB00A90A40 /* CYLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLHomeViewController.h; sourceTree = "<group>"; };
+		63F4596B1D4EE9DB00A90A40 /* CYLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLHomeViewController.m; sourceTree = "<group>"; };
+		63F4596D1D4EE9DB00A90A40 /* CYLMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLMessageViewController.h; sourceTree = "<group>"; };
+		63F4596E1D4EE9DB00A90A40 /* CYLMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLMessageViewController.m; sourceTree = "<group>"; };
+		63F459701D4EE9DB00A90A40 /* CYLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLMineViewController.h; sourceTree = "<group>"; };
+		63F459711D4EE9DB00A90A40 /* CYLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLMineViewController.m; sourceTree = "<group>"; };
+		63F459731D4EE9DB00A90A40 /* CYLDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLDetailsViewController.h; sourceTree = "<group>"; };
+		63F459741D4EE9DB00A90A40 /* CYLDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLDetailsViewController.m; sourceTree = "<group>"; };
+		63F459751D4EE9DB00A90A40 /* CYLSameCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLSameCityViewController.h; sourceTree = "<group>"; };
+		63F459761D4EE9DB00A90A40 /* CYLSameCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLSameCityViewController.m; sourceTree = "<group>"; };
+		63F459781D4EE9DB00A90A40 /* CYLPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButtonSubclass.h; sourceTree = "<group>"; };
+		63F459791D4EE9DB00A90A40 /* CYLPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButtonSubclass.m; sourceTree = "<group>"; };
+		63F4597A1D4EE9DB00A90A40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		814689B2B17DE57B0AA69737 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F16E39BE79E3790BE142AD94 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F459261D4B579900A90A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C23DB585D3DDB937548EE91 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63F459201D4B579900A90A40 = {
+			isa = PBXGroup;
+			children = (
+				63F4592B1D4B579900A90A40 /* WeBuy */,
+				63F4592A1D4B579900A90A40 /* Products */,
+				99F42F8AE6CA76032FDF876B /* Pods */,
+				A55C06EF181B9CEE3036C377 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63F4592A1D4B579900A90A40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F459291D4B579900A90A40 /* WeBuy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F4592B1D4B579900A90A40 /* WeBuy */ = {
+			isa = PBXGroup;
+			children = (
+				63F459671D4EE9DB00A90A40 /* Classes */,
+				63F4597A1D4EE9DB00A90A40 /* Images.xcassets */,
+				63F459461D4B701900A90A40 /* Sections */,
+				63F4592F1D4B579A00A90A40 /* AppDelegate.h */,
+				63F459301D4B579A00A90A40 /* AppDelegate.m */,
+				63F459321D4B579A00A90A40 /* FirstViewController.h */,
+				63F459331D4B579A00A90A40 /* FirstViewController.m */,
+				63F459351D4B579A00A90A40 /* SecondViewController.h */,
+				63F459361D4B579A00A90A40 /* SecondViewController.m */,
+				63F459381D4B579A00A90A40 /* Main.storyboard */,
+				63F4593B1D4B579A00A90A40 /* Assets.xcassets */,
+				63F4593D1D4B579A00A90A40 /* LaunchScreen.storyboard */,
+				63F459401D4B579A00A90A40 /* Info.plist */,
+				63F4592C1D4B579900A90A40 /* Supporting Files */,
+			);
+			path = WeBuy;
+			sourceTree = "<group>";
+		};
+		63F4592C1D4B579900A90A40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F4592D1D4B579900A90A40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63F459461D4B701900A90A40 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				63F459471D4B701900A90A40 /* TabBar */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		63F459471D4B701900A90A40 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				63F459491D4B70B200A90A40 /* CYLTabBarControllerConfig.h */,
+				63F4594A1D4B70B200A90A40 /* CYLTabBarControllerConfig.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		63F459671D4EE9DB00A90A40 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63F459681D4EE9DB00A90A40 /* Module */,
+				63F459771D4EE9DB00A90A40 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		63F459681D4EE9DB00A90A40 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				63F459691D4EE9DB00A90A40 /* Home */,
+				63F4596C1D4EE9DB00A90A40 /* Message */,
+				63F4596F1D4EE9DB00A90A40 /* Mine */,
+				63F459721D4EE9DB00A90A40 /* SameCity */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		63F459691D4EE9DB00A90A40 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				63F4596A1D4EE9DB00A90A40 /* CYLHomeViewController.h */,
+				63F4596B1D4EE9DB00A90A40 /* CYLHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		63F4596C1D4EE9DB00A90A40 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				63F4596D1D4EE9DB00A90A40 /* CYLMessageViewController.h */,
+				63F4596E1D4EE9DB00A90A40 /* CYLMessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		63F4596F1D4EE9DB00A90A40 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				63F459701D4EE9DB00A90A40 /* CYLMineViewController.h */,
+				63F459711D4EE9DB00A90A40 /* CYLMineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		63F459721D4EE9DB00A90A40 /* SameCity */ = {
+			isa = PBXGroup;
+			children = (
+				63F459731D4EE9DB00A90A40 /* CYLDetailsViewController.h */,
+				63F459741D4EE9DB00A90A40 /* CYLDetailsViewController.m */,
+				63F459751D4EE9DB00A90A40 /* CYLSameCityViewController.h */,
+				63F459761D4EE9DB00A90A40 /* CYLSameCityViewController.m */,
+			);
+			path = SameCity;
+			sourceTree = "<group>";
+		};
+		63F459771D4EE9DB00A90A40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63F459781D4EE9DB00A90A40 /* CYLPlusButtonSubclass.h */,
+				63F459791D4EE9DB00A90A40 /* CYLPlusButtonSubclass.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99F42F8AE6CA76032FDF876B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F16E39BE79E3790BE142AD94 /* Pods.debug.xcconfig */,
+				814689B2B17DE57B0AA69737 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A55C06EF181B9CEE3036C377 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DC021320210F375F4B91149 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F459281D4B579900A90A40 /* WeBuy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F459431D4B579A00A90A40 /* Build configuration list for PBXNativeTarget "WeBuy" */;
+			buildPhases = (
+				CBEF4DEE01F06339CCAC166C /* Check Pods Manifest.lock */,
+				63F459251D4B579900A90A40 /* Sources */,
+				63F459261D4B579900A90A40 /* Frameworks */,
+				63F459271D4B579900A90A40 /* Resources */,
+				45B43CADFEA35E92BB880645 /* Embed Pods Frameworks */,
+				7CDC61D962562B126809BEAC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeBuy;
+			productName = WeBuy;
+			productReference = 63F459291D4B579900A90A40 /* WeBuy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F459211D4B579900A90A40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YRYM;
+				TargetAttributes = {
+					63F459281D4B579900A90A40 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 63F459241D4B579900A90A40 /* Build configuration list for PBXProject "WeBuy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63F459201D4B579900A90A40;
+			productRefGroup = 63F4592A1D4B579900A90A40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F459281D4B579900A90A40 /* WeBuy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F459271D4B579900A90A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F4593F1D4B579A00A90A40 /* LaunchScreen.storyboard in Resources */,
+				63F459811D4EE9DC00A90A40 /* Images.xcassets in Resources */,
+				63F4593C1D4B579A00A90A40 /* Assets.xcassets in Resources */,
+				63F4593A1D4B579A00A90A40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45B43CADFEA35E92BB880645 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CDC61D962562B126809BEAC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBEF4DEE01F06339CCAC166C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F459251D4B579900A90A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F459371D4B579A00A90A40 /* SecondViewController.m in Sources */,
+				63F459311D4B579A00A90A40 /* AppDelegate.m in Sources */,
+				63F4597D1D4EE9DB00A90A40 /* CYLMineViewController.m in Sources */,
+				63F459341D4B579A00A90A40 /* FirstViewController.m in Sources */,
+				63F4592E1D4B579900A90A40 /* main.m in Sources */,
+				63F4597B1D4EE9DB00A90A40 /* CYLHomeViewController.m in Sources */,
+				63F4597C1D4EE9DB00A90A40 /* CYLMessageViewController.m in Sources */,
+				63F4594B1D4B70B200A90A40 /* CYLTabBarControllerConfig.m in Sources */,
+				63F459801D4EE9DB00A90A40 /* CYLPlusButtonSubclass.m in Sources */,
+				63F4597F1D4EE9DB00A90A40 /* CYLSameCityViewController.m in Sources */,
+				63F4597E1D4EE9DB00A90A40 /* CYLDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63F459381D4B579A00A90A40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F459391D4B579A00A90A40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63F4593D1D4B579A00A90A40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F4593E1D4B579A00A90A40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63F459411D4B579A00A90A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63F459421D4B579A00A90A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F459441D4B579A00A90A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16E39BE79E3790BE142AD94 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeBuy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YRYM.WeBuy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63F459451D4B579A00A90A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814689B2B17DE57B0AA69737 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeBuy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YRYM.WeBuy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F459241D4B579900A90A40 /* Build configuration list for PBXProject "WeBuy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F459411D4B579A00A90A40 /* Debug */,
+				63F459421D4B579A00A90A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F459431D4B579A00A90A40 /* Build configuration list for PBXNativeTarget "WeBuy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F459441D4B579A00A90A40 /* Debug */,
+				63F459451D4B579A00A90A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63F459211D4B579900A90A40 /* Project object */;
+}
